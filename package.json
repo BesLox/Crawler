@@ -1,0 +1,21 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "This is an Application Crawl all Link in a Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "crawl",
+    "nodejs"
+  ],
+  "author": "BesLox",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
