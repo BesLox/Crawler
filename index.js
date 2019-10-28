@@ -1,3 +1,11 @@
+// // Reduce
+// arr = [0, 1, 2, 3, 4, 5, 6, 8, 9, 10]
+
+// let max = arr.reduce((max, arr) => (arr > max ? arr : max))
+// let min = arr.reduce((min, arr) => (arr < min ? arr : min))
+// console.log(`Max value in array: ${max}`)
+// console.log(`Min value in array: ${min}`)
+
 // Define package
 const fs = require('fs')
 const cheerio = require('cheerio')
